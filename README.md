@@ -2,80 +2,17 @@
 <html>
 <head>
   <title>Data Engineering Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      display: flex;
-      flex-direction: row;
-      padding: 20px;
-    }
-
-    .sidebar {
-      flex: 0 0 250px;
-    }
-
-    .content {
-      flex: 1;
-      padding-left: 20px;
-    }
-
-    h1 {
-      color: #333;
-      margin-bottom: 20px;
-    }
-
-    img {
-      width: 200px;
-      border-radius: 50%;
-      margin-bottom: 20px;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .project {
-      margin-bottom: 30px;
-    }
-
-    .project-title {
-      font-size: 20px;
-      color: #333;
-      margin-bottom: 5px;
-    }
-
-    .project-description {
-      color: #555;
-    }
-
-    .project-link {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    .project-link:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <div class="container">
     <div class="sidebar">
       <img src="profile-image.jpg" alt="Profile Image">
+      <p class="profile-description">Dynamic and results-oriented Data Scientist and Data Engineer with expertise in designing and implementing scalable data infrastructure and delivering advanced analytics solutions. Proven track record in leading cross-functional teams, driving data-driven decision-making, and optimizing business processes. Skilled in data modeling, ETL pipeline development, cloud architecture, and machine learning. Committed to leveraging data to drive business growth and innovation.</p>
       <ul>
         <li><a href="resume.pdf">Download Resume</a></li>
-        <li><a href="https://github.com/bollig-michael">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/michael-bollig-b5aa7185/">LinkedIn</a></li>
+        <li><a href="https://github.com/your-github-profile">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/your-linkedin-profile">LinkedIn</a></li>
       </ul>
     </div>
     <div class="content">
