@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Data Engineer Portfolio</title>
+  <title>Michael Bollig Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -60,7 +60,7 @@
   <h2>Projects</h2>
 
   <div class="project">
-    <h3 class="project-title">ETL Pipeline for Sales Analytics</h3>
+    <h3 class="project-title">ETL Pipeline</h3>
     <p class="project-description">Built an end-to-end ETL pipeline to extract sales data from various sources, transform and clean the data, and load it into a centralized data warehouse.</p>
     <a class="project-link" href="project1.html">Details</a>
   </div>
