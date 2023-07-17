@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Work Experience Section */
+#work-experience .job {
+  margin-bottom: 30px;
+}
+
+#work-experience .job h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#work-experience .date {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Skills Section */
+#skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #f5f5f5;
+  color: #555;
+  border-radius: 3px;
+}
+
+/* Education Section */
+#education .education-entry {
+  margin-bottom: 30px;
+}
+
+#education .education-entry h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#education .date {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  color: #777;
+}
+
+
