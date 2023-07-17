@@ -1,92 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Michael Bollig Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-
-    h1 {
-      color: #333;
-      text-align: center;
-    }
-
-    h2 {
-      color: #555;
-    }
-
-    p {
-      color: #777;
-    }
-
-    .project {
-      margin-bottom: 30px;
-    }
-
-    .project-title {
-      font-size: 20px;
-      color: #333;
-    }
-
-    .project-description {
-      font-size: 16px;
-      color: #555;
-    }
-
-    .project-link {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    .project-link:hover {
-      text-decoration: underline;
-    }
-
-    .skill {
-      margin-right: 10px;
-      margin-bottom: 10px;
-      padding: 5px 10px;
-      background-color: #f5f5f5;
-      color: #555;
-      border-radius: 3px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <h1>Michael Bollig Portfolio</h1>
+  <header>
+    <h1>Data Engineer Portfolio</h1>
+  </header>
 
-  <h2>Projects</h2>
+  <section id="work-experience">
+    <h2>Work Experience</h2>
 
-  <div class="project">
-    <h3 class="project-title">ETL Pipeline</h3>
-    <p class="project-description">Built an end-to-end ETL pipeline to extract sales data from various sources, transform and clean the data, and load it into a centralized data warehouse.</p>
-    <a class="project-link" href="project1.html">Details</a>
-  </div>
+    <div class="job">
+      <h3>Data Scientist, Data Engineering</h3>
+      <p class="date">03/2022 - 01/2023</p>
+      <ul>
+        <li>Led design and implementation of an extensible and cost-effective AWS cloud-native data infrastructure.</li>
+        <li>Implemented CI/CD tools and principles for automatic building, testing, and releases.</li>
+        <li>Led selection and implementation of Tableau for seamless delivery of reporting and democratization of data.</li>
+        <li>Worked cross-functionally to define data-driven key metrics and perform forecasting and predictive modeling.</li>
+      </ul>
+    </div>
 
-  <div class="project">
-    <h3 class="project-title">Real-time Data Streaming with Apache Kafka</h3>
-    <p class="project-description">Developed a real-time data streaming solution using Apache Kafka and Apache Spark. Built data pipelines to process and analyze streaming data from multiple sources.</p>
-    <a class="project-link" href="project2.html">Details</a>
-  </div>
+    <div class="job">
+      <h3>Data Engineer III</h3>
+      <p class="date">05/2020 - 03/2022</p>
+      <ul>
+        <li>Lead role in centralization of data analytics within the company.</li>
+        <li>Centralized and integrated company data cross-departmentally.</li>
+        <li>Maintained and developed primary business intelligence data platform.</li>
+        <li>Built robust, large-scale distributed pipelines with Spark.</li>
+        <li>Implemented dbt for modular data modeling and traceable data lineage.</li>
+        <li>Utilized IaaS tools to manage and administer cloud architecture.</li>
+      </ul>
+    </div>
 
-  <h2>Skills</h2>
+    <div class="job">
+      <h3>Process Engineer III</h3>
+      <p class="date">02/2016 - 05/2020</p>
+      <ul>
+        <li>Developed and automated an accuracy and reproducibility monitoring system.</li>
+        <li>Worked interdepartmentally on migrating data architecture to the cloud and agile work environment.</li>
+        <li>Led randomized clinical trials and provided evidence for FDA clearance.</li>
+      </ul>
+    </div>
 
-  <p>
-    <span class="skill">ETL</span>
-    <span class="skill">SQL</span>
-    <span class="skill">Big Data Technologies</span>
-    <span class="skill">Data Modeling</span>
-    <span class="skill">Cloud Platforms</span>
-    <span class="skill">Workflow Orchestration</span>
-    <span class="skill">Data Quality and Testing</span>
-    <span class="skill">Version Control (Git)</span>
-  </p>
+    <div class="job">
+      <h3>Senior Case Analyst</h3>
+      <p class="date">06/2014 - 02/2016</p>
+      <ul>
+        <li>Responsible for processing and reviewing model-generated output.</li>
+        <li>Maintained highest internal certification level and mentored junior analysts.</li>
+        <li>Performed inspections and verification on image data integrity.</li>
+      </ul>
+    </div>
+  </section>
 
-  <h2>Contact Information</h2>
+  <section id="skills">
+    <h2>Skills</h2>
 
-  <p>Email: your-email@example.com</p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile">Your LinkedIn Profile</a></p>
+    <ul>
+      <li>Python (NumPy, Pandas, Scikit, PySpark)</li>
+      <li>SQL (MySQL, Redshift, Postgres)</li>
+      <li>R</li>
+      <li>AWS (primary)</li>
+      <li>GCP and Azure (educationally)</li>
+      <li>Data Modeling</li>
+      <li>Data Visualization</li>
+      <li>Data Structures and Algorithms</li>
+      <li>System Design</li>
+      <li>CI/CD</li>
+      <li>OOP</li>
+      <li>Integrated Testing</li>
+      <li>Agile</li>
+      <li>Applied Machine Learning</li>
+      <li>RCT Design and Statistical Analysis</li>
+      <li>Healthcare (PHI, PII, FDA, ISO)</li>
+      <li>AWS Redshift, Aurora, SQL</li>
+      <li>AWS Lambda, Glue, Step, and Batch</li>
+      <li>AWS DMS, Cloudwatch, Cloudtrail</li>
+      <li>Tableau</li>
+      <li>Databricks</li>
+      <li>Snowflake</li>
+      <li>Spark</li>
+      <li>Kubernetes</li>
+      <li>Jenkins</li>
+      <li>Excellent Public Speaking and Presentation</li>
+      <li>Collaborative</li>
+      <li>Enthusiastic</li>
+      <li>Strong Written and Interpersonal Communication</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+
+    <div class="education-entry">
+      <h3>University of California, Berkeley</h3>
+      <p class="date">May 2020 - December 2021</p>
+      <p>Master of Information, Data Science (MIDS)</p>
+    </div>
+
+    <div class="education-entry">
+      <h3>University of Arizona</h3>
+      <p class="date">September 2010 - May 2014</p>
+      <p>Bachelor of Science, Biomedical Engineering (BSBME)</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: your-email@example.com | LinkedIn: <a href="https://www.linkedin.com/in/your-profile">Your LinkedIn Profile</a></p>
+  </footer>
 </body>
 </html>
