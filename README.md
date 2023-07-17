@@ -55,7 +55,7 @@
   </style>
 </head>
 <body>
-  <h1>Data Engineer Portfolio</h1>
+  <h1>Michael Bollig Portfolio</h1>
 
   <h2>Projects</h2>
 
