@@ -10,7 +10,7 @@
       <img src="profile-image.jpg" alt="Profile Image">
       <ul>
         <li><a href="resume.pdf"><i class="fas fa-download"></i> Resume</a></li>
-        <li><a href="https://github.com/your-github-profile"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="https://github.com/bollig-michael"><i class="fab fa-github"></i> GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/michael-bollig-b5aa7185/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
       </ul>
       <div class="education">
